@@ -1,0 +1,14 @@
+Let's explore npm
+
+shell commands are quoted with `` to copy and run them.
+1)`npm init` intializes a new npm project.
+2)`npm install --save` or `npm install --save-dev` adds packages from npm into your project.
+dependency management is clean with no conflicts.
+3)`npm uninstall --save`
+
+Now Let's explore express.
+1) `npx express-generator -e` for express with ejs, jade is default templating.
+2) `npx express-generator --no-view` for no view just for a rest api.
+3) comment '// app.use(express.static(path.join(__dirname, 'public')));'
+4)remove public folder.
+5)
